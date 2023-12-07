@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import openGraphImage from "@/public/previews/desktop-preview.png";
 
 export const metadata: Metadata = {
-  title: "Arda Eker - 3 Column Preview Card Component Solution Solution",
+  title: "Arda Eker - 3 Column Preview Card Component Solution",
   description:
     "Hello, I'm Arda Eker. This website showcases my solution to the 3-column preview card component challenge on Frontend Mentor.",
   authors: [{ name: "Arda Eker", url: "https://www.ardaeker.com" }],
