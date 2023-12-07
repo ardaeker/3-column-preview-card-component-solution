@@ -1,6 +1,6 @@
-# Frontend Mentor - <\*\*\*> solution
+# Frontend Mentor - 3 Column Preview Card Component Solution
 
-This is a solution to the [<\*\*\*> challenge on Frontend Mentor](***).
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
 ## Table of contents
 
@@ -17,24 +17,23 @@ This is a solution to the [<\*\*\*> challenge on Frontend Mentor](***).
 
 Users should be able to:
 
--
--
--
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ## Screenshot
 
 |                  Desktop                   |
 | :----------------------------------------: |
-| ![](./public/previews/preview-desktop.png) |
+| ![](./public/previews/desktop-preview.png) |
 
 |                  Mobile                   |
 | :---------------------------------------: |
-| ![](./public/previews/preview-mobile.png) |
+| ![](./public/previews/mobile-preview.png) |
 
 ## Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3-column-preview-card-component-c6mB22vsZT)
+- Live Site URL: [Live Site](https://ardaeker-3-column-preview-card-component-solution.vercel.app)
 
 ## Built with
 

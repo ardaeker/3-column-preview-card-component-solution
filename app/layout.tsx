@@ -1,26 +1,30 @@
 import "@/styles/tailwind.css";
-import { manrope } from "@/fonts/font";
+import { bigShoulderDisplay, lexendDeca } from "@/fonts/font";
 
 import type { Metadata } from "next";
 
+import openGraphImage from "@/public/previews/desktop-preview.png";
+
 export const metadata: Metadata = {
-  title: "Arda Eker - <***> Solution",
+  title: "Arda Eker - 3 Column Preview Card Component Solution Solution",
   description:
-    "Hello, I'm Arda Eker. This website showcases my solution to the <***> challenge on Frontend Mentor.",
+    "Hello, I'm Arda Eker. This website showcases my solution to the 3-column preview card component challenge on Frontend Mentor.",
   authors: [{ name: "Arda Eker", url: "https://www.ardaeker.com" }],
-  // metadataBase: new URL("<***>"),
-  // openGraph: {
-  //   type: "website",
-  //   url: "/",
-  //   title: "Arda Eker - <***> Solution",
-  //   description:
-  //     "Hello, I'm Arda Eker. This website showcases my solution to the <***> challenge on Frontend Mentor.",
-  //   images: [
-  //     {
-  //       url: "/preview.png",
-  //     },
-  //   ],
-  // },
+  metadataBase: new URL(
+    "https://ardaeker-3-column-preview-card-component-solution.vercel.app",
+  ),
+  openGraph: {
+    type: "website",
+    url: "/",
+    title: "Arda Eker - 3 Column Preview Card Component Solution",
+    description:
+      "Hello, I'm Arda Eker. This website showcases my solution to the 3-column preview card component challenge on Frontend Mentor.",
+    images: [
+      {
+        url: openGraphImage.src,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +34,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${manrope.className} antialiased`}>{children}</body>
+      <body
+        className={`${bigShoulderDisplay.variable} ${lexendDeca.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
