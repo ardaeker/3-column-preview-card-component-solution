@@ -52,7 +52,7 @@ const list: Cars[] = [
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen min-w-min flex-col items-center px-6 py-[5.5rem] lg:flex-row lg:justify-center lg:p-0 ">
+    <main className="flex min-h-screen min-w-min flex-col items-center bg-[#F2F2F2] px-6 py-[5.5rem] lg:flex-row lg:justify-center lg:p-0">
       <div className="max-w-[20.4375rem] overflow-hidden rounded-lg lg:flex lg:max-w-[57.5rem] ">
         {list.map((item) => (
           <Card key={item.id} {...item} />
